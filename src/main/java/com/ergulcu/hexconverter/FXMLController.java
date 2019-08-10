@@ -27,7 +27,7 @@ public class FXMLController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        charsetComboBox.getItems().addAll("UTF-8", "ISO-8859-1", "US-ASCII");
+        charsetComboBox.getItems().addAll("UTF-8", "ISO-8859-1", "ISO-8859-9", "US-ASCII");
         charsetComboBox.getSelectionModel().selectFirst();
     }
 
