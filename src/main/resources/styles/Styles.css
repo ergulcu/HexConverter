@@ -1,4 +1,19 @@
+/*
+ * Copyright 2019 Mehmet ERGULCU
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('../font/RobotoMono-Regular.ttf');
+}
+
 .button {
     -fx-font-weight: bold;
     -fx-font-family: 'monospaced';
+}
+
+.text-area {
+    -fx-font-family: 'Roboto Mono', 'monospaced';
+    -fx-font-size: 15px;
 }
