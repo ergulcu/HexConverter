@@ -1,26 +1,11 @@
-# Build output
-target/
-!.mvn/wrapper/maven-wrapper.jar
-*.class
-*.log
-hs_err_pid*
-
-# Local settings and data
-.env
-data/
+# Build output (build into dist/; a binary named hexconv here would clash with the hexconv/ package)
+/bin/
+/dist/
+/hexconverter
+*.exe
+*.test
+coverage.out
 
 # IDEs
 .idea/
-*.iml
-*.iws
-*.ipr
 .vscode/
-.classpath
-.project
-.settings/
-.factorypath
-.apt_generated/
-.sts4-cache/
-nbproject/private/
-nb-configuration.xml
-nbactions.xml
